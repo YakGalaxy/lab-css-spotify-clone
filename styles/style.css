@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5%;
+}
+
+/* #logo {
+    background-image: url(/images/spotify-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 10vh;
+} */
+
+#logo-image img {
+  width: 10vw;
+  max-height: 10vh;
+}
+
+nav ul {
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  padding-left: 0;
+}
+
+.hero-container {
+  /* display: flex; */
+  /* width: 100vw;
+    height: auto; */
+  position: relative;
+}
+
+/* .hero-image {
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    width: 100vw;
+    height: auto;
+    
+} */
+
+.hero-image img {
+  width: 100%;
+  height: 50%;
+  /* object-fit: cover; */
+}
+
+.headline-container {
+  /* display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  text-align: center;
+}
+
+.headline-container h1 {
+  font-size: 3.8rem;
+}
+
+/* .headline-container p {
+    width: 25vw;
+} */
+
+.whats-on {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.whats-on h2 {
+  flex-basis: 100vw;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #1db954;
+  text-decoration-thickness: 10%;
+  text-underline-offset: 40%;
+  margin-bottom: 10%;
+}
+
+.why-box {
+  align-content: center;
+  text-align: center;
+}
+
+.why-box img {
+  height: 8vh;
+}
+
+.why-box h3 {
+  color: #1db954;
+}
+
+.promo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1db954;
+    color: white;
+    margin: 3vw;
+    padding: 4vw;
+    /* align-content:space-around; */
+}
+
+.promo-container h3 {
+    text-decoration: underline white 10%;
+    text-underline-offset: 40%;
+    font-size: 1.5rem;
+    padding-bottom: 2vh;
+}
+
+.promo-container h4 {
+    font-size: 1.25rem;
+}
+
+.promo-article {
+    /* max-width: 50vw; */
+    /* margin-left: 5vw; */
+    /* max-width: 50vw; */
+}
+
+.promo-article p {
+    width: 25vw;
+    /* height: auto; */
+}
+
+.promo-container aside {
+    /* max-width: 50vw; */
+    /* max-width: 50vw; */
+    /* height: auto; */
+    align-self: center;
+}
+
+#app-image {
+    width: 25vw;
+}
+
+.promo-logo {
+
+}
+
+#logo {
+    width: 10vw;
+    align-self: center;
+}
